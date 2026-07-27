@@ -1,4 +1,4 @@
-# Inkscape Demo
+# JabRef Demo
 
 This demo installs a GUI app.
 
