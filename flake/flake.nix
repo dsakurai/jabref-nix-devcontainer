@@ -1,7 +1,7 @@
 {
   description = "A simple flake to test Nix installation";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/25.11";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/20edaf9a4790256add37b38ba4329b158dd138c8";
 
   outputs = { self, nixpkgs }: {
     packages = {
@@ -11,7 +11,7 @@
         };
       in {
         # Add Wayland utilities
-        Inkscape = pkgs.inkscape;
+        jabref = pkgs.jabref;
       };
     };
   };
